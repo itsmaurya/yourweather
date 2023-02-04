@@ -13,54 +13,57 @@
 
 <body>
 
-    <nav class="navbar bg-body-tertiary">
+    <nav class="navbar" style="background-color: #2c5a7e;color: white;">
         <div class="container-fluid">
-          <a class="navbar-brand" onclick="backFunction()"><span>&#8629;</span> Back</a>
-          
+          <a class="navbar-brand" style="color:white" onclick="backFunction()"><span>&#8629;</span> Back</a>
         </div>
       </nav>
 
-    <div class="container">
-        <div class="accordion my-4" id="accordionExample">
-            <div class="accordion-item">
+    <div class="container" style="margin-top: 3cm;">
+        <div class="accordion my-4" id="accordionExample" >
+            <div class="accordion-item" style="background-color: #4183b6;color: white;">
                 <h2 class="accordion-header" id="headingOne">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Accordion Item #1
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="background-color: #2c5a7e;color: white;">
+                        About
                     </button>
                 </h2>
                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-
+                       <li> Your Weather is a weather providing web app.</li>
+                       <li> We give you the information about weather of the city you choose.</li>
+                       <li>We give you information like temprature , humidity, wind speed etc. </li>
                     </div>
                 </div>
             </div>
-            <div class="accordion-item">
+            <div class="accordion-item" style="background-color: #4183b6;color: white;">
                 <h2 class="accordion-header" id="headingTwo">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Accordion Item #2
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"style="background-color: #2c5a7e;color: white;">
+                        How we do ?
                     </button>
                 </h2>
                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-
+                     <li>To provide you weather information we use Weather API by API ninja's.
+                        We fetch data from there and present to you.
+                     </li> 
                     </div>
                 </div>
             </div>
-            <div class="accordion-item">
+            <div class="accordion-item" style="background-color: #4183b6;color: white;">
                 <h2 class="accordion-header" id="headingThree">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Accordion Item #3
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="background-color: #2c5a7e;color: white;">
+                        Contact Us
                     </button>
                 </h2>
                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-
+                        <li>You can contact us by our GITHUB account @itsmaurya.</li>
                     </div>
                 </div>
             </div>
