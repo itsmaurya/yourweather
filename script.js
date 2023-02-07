@@ -35,6 +35,19 @@ submit.addEventListener("click",(e)=>{
     e.preventDefault()
     getWeather(city.value)
 })
+bgn.addEventListener("click",(e)=>{
+    e.preventDefault()
+    getWeather("Bangalore")
+})
+mob.addEventListener("click",(e)=>{
+    e.preventDefault()
+    getWeather("Mumbai")
+})
+chn.addEventListener("click",(e)=>{
+    e.preventDefault()
+    getWeather("chennai")
+})
+
 
 getWeather("Delhi")
 
